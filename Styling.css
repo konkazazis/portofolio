@@ -1,0 +1,202 @@
+body {
+    background-image: url(Resources/img.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+/*-----------------------Navbar---------------------------*/
+#navbar-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 75%;
+    margin-top: 1%;
+}
+
+#navbar-ul li {
+    float: left;
+    margin-left: 5%;
+    margin-top: 0%;
+    font-family: 'Roboto';
+    font-size: 130%;
+    transition: font-size 200ms ;
+}
+
+#navbar-ul li:hover {
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    border-bottom: 2px solid white;
+    font-size: 150%;
+}
+
+#navbar-ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+/*-------------------------Home------------------------*/
+#message h1 {
+    text-align: left;
+    padding-left: 10%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-top: 15%;
+    font-size: 350%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#button {
+    padding-left: 10%;
+}
+
+#button button  {
+    padding: 15px 40px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: medium;
+    transition: border-width 200ms;
+    transition-timing-function: ease-in-out;
+    
+}
+
+#button button a {
+    text-decoration: none;
+    color: white;
+}
+
+#button button:hover {
+    cursor: pointer;
+    border-width: 4px;
+    font-size: large;
+    font-weight: 500;
+}
+
+#button button:active {
+    border-width: 2px !important;
+    border-style: solid !important;
+}
+/*------------------------About-----------------------*/
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#intro {
+    width: 40%;
+}
+
+#intro p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 170%;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+#projects {
+    width: 50%;
+    display: flex;
+}
+
+#projects-section {
+    margin-top: 5%;
+}
+
+#projects #heading {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 220%;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-right: 10%;
+}
+
+#project-card {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#project-card #description {
+    display: inline-block;
+}
+
+#project-card img {
+     width: 30%;
+}
+
+#project-card p {
+    margin-left: 8% ;
+    color: white;
+    font-family: 'Roboto';
+    text-shadow: 2px 2px black;
+    font-size: 120%;
+}
+
+#project-card a {
+    margin-left: 8%;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 150%;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    border-bottom: 2px solid white;
+    box-shadow:0px 2px  black;
+}
+
+/*-----------------Contact---------------------*/
+
+#contact {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#contact #head {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 220%;
+    color: white;
+    text-shadow: 2px 2px black;
+    border-bottom: 2px solid white;
+    box-shadow:0px 2px  black;
+}
+
+#contact #links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact #links img {
+    width: 50%;
+    color: white;
+}
+
+#contact #email {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 220%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+
+  
